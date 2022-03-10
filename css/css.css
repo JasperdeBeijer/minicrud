@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pagina {
+  height: 745px;
+  width: 100%;
+  background-color: rgba(242, 250, 204, 0.808);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 10%;
+  width: 100%;
+  background-color: rgb(75, 182, 102);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 15%;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  width: 50%;
+}
+
+.container {
+  height: 90%;
+  width: 100%;
+}
+
+.boven {
+  height: 75%;
+  width: 100%;
+}
+
+.onder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 25%;
+  width: 100%;
+  text-align: center;
+}
+
+.tekstonder1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 30%;
+}
+
+.tekstonder2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 30%;
+}
