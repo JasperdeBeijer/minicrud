@@ -2,20 +2,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Italiana", serif;
 }
 
 .pagina {
+  height: 1700px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.paginacontact {
   height: 745px;
   width: 100%;
-  background-color: rgba(242, 250, 204, 0.808);
+  background-color: rgb(255, 255, 255);
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  height: 10%;
+  height: 5%;
   width: 100%;
-  background-color: rgb(75, 182, 102);
+  background-color: rgb(255, 255, 255);
 }
 
 .logo {
@@ -31,7 +38,12 @@
   align-items: center;
   justify-content: space-around;
   height: 100%;
-  width: 50%;
+  width: 25%;
+}
+
+.link a {
+  text-decoration: none;
+  color: black;
 }
 
 .container {
@@ -39,34 +51,137 @@
   width: 100%;
 }
 
-.boven {
+.indexafb {
+  height: 33%;
+  width: 100%;
+}
+
+.restaurantinfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 33%;
+  width: 100%;
+}
+
+.containerrestaurantinfo {
+  height: 75%;
+  width: 50%;
+}
+
+.restauranttitel {
+  height: 25%;
+  width: 100%;
+}
+
+.restaurantbeschrijving {
   height: 75%;
   width: 100%;
 }
 
-.onder {
+.indexlocatie {
+  height: 33%;
+  width: 100%;
+}
+
+.menurij1 {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 30%;
+  width: 100%;
+}
+
+.menurij2 {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 30%;
+  width: 100%;
+}
+
+.menurij3 {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 30%;
+  width: 100%;
+}
+
+.gerechtimg {
+  height: 100%;
+  width: 50%;
+}
+
+.gerechtbeschr {
+  height: 100%;
+  width: 50%;
+}
+
+.naamrij {
+  display: flex;
+  align-items: center;
+  padding-left: 20%;
+  height: 20%;
+  width: 100%;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.gerechten {
+  height: 70%;
+  width: 100%;
+}
+
+.gerecht {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  height: 25%;
+  justify-content: space-between;
+  height: 20%;
   width: 100%;
-  text-align: center;
 }
 
-.tekstonder1 {
+.gerechtinfo {
   display: flex;
-  text-align: center;
+  padding-left: 20%;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+}
+
+.gerechtprijs {
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
-  width: 30%;
+  width: 20%;
 }
 
-.tekstonder2 {
+.contactcontainer {
   display: flex;
-  text-align: center;
   justify-content: center;
   align-items: center;
+  height: 90%;
+  width: 100%;
+}
+
+.contactboxen {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  height: 40%;
+  width: 60%;
+}
+
+.contacttekst {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   height: 100%;
-  width: 30%;
+  width: 45%;
+}
+
+.contactmogelijkheden {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 45%;
 }
