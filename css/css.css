@@ -11,6 +11,12 @@
   background-color: rgb(255, 255, 255);
 }
 
+.paginacontact {
+  height: 745px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
