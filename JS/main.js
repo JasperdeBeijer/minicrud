@@ -1,5 +1,10 @@
-const inputs = document.querySelectorAll("#formulier input");
-const button = document.querySelector("#formulier button");
-button.addEventListener("click", (e) => {
-  console.log("poep");
-});
+fetch("https://swapi.dev/api/people/2")
+  .then((response) => {
+    return response.json();
+  })
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
