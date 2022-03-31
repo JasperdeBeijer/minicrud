@@ -2,17 +2,32 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Italiana", serif;
+  font-family: "Raleway", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "BioRhyme", serif;
 }
 
 .pagina {
-  height: 1700px;
+  height: auto;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.paginamenu {
+  height: auto;
   width: 100%;
   background-color: rgb(255, 255, 255);
 }
 
 .paginacontact {
-  height: 745px;
+  height: auto;
   width: 100%;
   background-color: rgb(255, 255, 255);
 }
@@ -20,11 +35,15 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  height: 5%;
+  align-items: center;
+  height: 80px;
   width: 100%;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
 }
 
+.navbar p {
+  color: white;
+}
 .logo {
   display: flex;
   justify-content: center;
@@ -47,12 +66,18 @@
 }
 
 .container {
-  height: 90%;
+  height: auto;
   width: 100%;
 }
 
 .indexafb {
-  height: 33%;
+  height: auto;
+  width: 100%;
+}
+
+.indexafb img {
+  display: block;
+  height: auto;
   width: 100%;
 }
 
@@ -60,48 +85,59 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 33%;
   width: 100%;
+  height: auto;
+  padding: 100px 0px;
 }
 
 .containerrestaurantinfo {
-  height: 75%;
-  width: 50%;
+  height: auto;
+  width: 40%;
 }
 
 .restauranttitel {
-  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
   width: 100%;
+  margin-bottom: 30px;
+}
+
+.restauranttitel h1 {
+  font-size: 35px;
 }
 
 .restaurantbeschrijving {
-  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: auto;
   width: 100%;
+}
+
+.restaurantbeschrijving p {
+  font-size: 18px;
+  line-height: 28px;
 }
 
 .indexlocatie {
-  height: 33%;
+  height: auto;
   width: 100%;
 }
 
-.menurij1 {
-  display: flex;
-  flex-wrap: nowrap;
-  height: 30%;
+.indexlocatie img {
+  display: block;
   width: 100%;
+  height: auto;
 }
 
-.menurij2 {
+.menurij {
   display: flex;
   flex-wrap: nowrap;
-  height: 30%;
-  width: 100%;
-}
-
-.menurij3 {
-  display: flex;
-  flex-wrap: nowrap;
-  height: 30%;
+  height: auto;
+  min-height: 350px;
   width: 100%;
 }
 
@@ -110,23 +146,30 @@
   width: 50%;
 }
 
+.gerechtimg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .gerechtbeschr {
   height: 100%;
   width: 50%;
+  padding: 40px;
 }
 
 .naamrij {
   display: flex;
   align-items: center;
-  padding-left: 20%;
-  height: 20%;
+  height: auto;
   width: 100%;
   font-weight: bold;
   font-size: 50px;
+  margin-bottom: 20px;
 }
 
 .gerechten {
-  height: 70%;
+  height: auto;
   width: 100%;
 }
 
@@ -134,15 +177,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: 20%;
+  height: auto;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .gerechtinfo {
   display: flex;
-  padding-left: 20%;
   align-items: center;
-  height: 100%;
+  height: auto;
   width: 50%;
 }
 
@@ -150,24 +193,36 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: auto;
   width: 20%;
 }
 
 .contactcontainer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 90%;
+  height: auto;
+  width: 100%;
+}
+
+.contactafbeelding {
+  height: 100%;
+  width: 100%;
+}
+
+.contactafbeelding img {
+  display: block;
+  height: 100%;
   width: 100%;
 }
 
 .contactboxen {
   display: flex;
   justify-content: space-between;
-  flex-wrap: nowrap;
-  height: 40%;
+  height: auto;
   width: 60%;
+  padding: 100px 0px;
 }
 
 .contacttekst {
@@ -175,13 +230,34 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 100%;
+  height: auto;
   width: 45%;
+}
+
+.contacttekst p {
+  font-size: 25px;
+  padding: 25px;
 }
 
 .contactmogelijkheden {
   display: flex;
   align-items: center;
-  height: 100%;
+  height: auto;
   width: 45%;
+}
+
+.contactmogelijkheden li {
+  font-size: 25px;
+  list-style-type: none;
+  padding: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  background-color: black;
+  font-size: 12px;
+  color: white;
 }
