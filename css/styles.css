@@ -127,10 +127,73 @@ h6 {
   width: 100%;
 }
 
-.indexlocatie img {
+.indexlocatie iframe {
   display: block;
   width: 100%;
+  height: 300px;
+}
+
+.zoekbalk {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
   height: auto;
+  width: 100%;
+}
+
+.zoekbalktekst {
+  height: 100%;
+  width: 20%;
+}
+
+.zoekbalktekst p {
+  font-size: 18px;
+}
+
+.zoekresultaatcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+.zoekresultaten {
+  height: 100%;
+  width: 20%;
+  padding: 10px;
+}
+
+.zoekresultatentekst {
+  height: 100%;
+  width: 20%;
+}
+
+input[type="text"] {
+  float: left;
+  width: 100%;
+  padding: 15px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #abd84b;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  width: 100%;
+  font-size: 20px;
+}
+
+label {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 148px;
+  font-size: 20px;
 }
 
 .menurij {

@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/css.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <div class="paginacontact">
@@ -17,14 +17,14 @@
           <p>Logo</p>
         </div>
         <div class="link">
-          <a href="index.html"><p>Home</p></a>
-          <a href="menu.html"><p>Menu</p></a>
-          <a href="contact.html"><p>Contact</p></a>
+          <a href="index.php"><p>Home</p></a>
+          <a href="menu.php"><p>Menu</p></a>
+          <a href="contact.php"><p>Contact</p></a>
         </div>
       </div>
       <div class="contactcontainer">
         <div class="contactafbeelding">
-          <img src="Images/contactpagina.jpg">
+          <img src="images/contactpagina.jpg">
         </div>
         <div class="contactboxen">
           <div class="contacttekst">

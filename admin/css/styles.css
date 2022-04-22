@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.pagina {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 25%;
+}
+
+input[type="text"] {
+  float: left;
+  width: 100%;
+  padding: 15px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #abd84b;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  width: 100%;
+  font-size: 20px;
+}
+
+label {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 148px;
+  font-size: 20px;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 100%;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 20%;
+}
+
+table,
+th,
+td {
+  border: none;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 25px;
+}
+
+.button input {
+  height: 75px;
+  width: 250px;
+  font-size: 30px;
+  background-color: rgb(37, 187, 37);
+}
+
+input[type="text"] {
+  float: left;
+  width: 100%;
+  padding: 15px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"],
+button.submit {
+  background-color: #abd84b;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  width: 100%;
+}
