@@ -10,14 +10,15 @@
   <body>
     <div class="pagina">
       <div class="container">
-        <form action="admin.php">
+        <form action="admin.php" name="logIn" onsubmit="return validateForm()" method="post">
           <label>Username</label>
-          <input type="text" />
+          <input type="text" name="userName" required/>
           <label>Password</label>
-          <input type="text" />
-          <button type="submit">Login</button>
+          <input type="text" name="passWord" required/>
+          <button type="submit" name="submit">Login</button>
         </form>
       </div>
     </div>
+    <script src="js/admin.js"></script>
   </body>
 </html>

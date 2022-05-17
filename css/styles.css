@@ -39,11 +39,21 @@ h6 {
   height: 80px;
   width: 100%;
   background-color: rgb(0, 0, 0);
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 15%;
 }
 
 .navbar p {
   color: white;
 }
+
 .logo {
   display: flex;
   justify-content: center;
@@ -70,12 +80,12 @@ h6 {
   width: 100%;
 }
 
-.indexafb {
+.slideshow {
   height: auto;
   width: 100%;
 }
 
-.indexafb img {
+.slideshow img {
   display: block;
   height: auto;
   width: 100%;
